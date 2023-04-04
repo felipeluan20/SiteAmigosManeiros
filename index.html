@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./chatgpt codigo/style.css">
+    <link rel="icon" type="image/x-icon" href="./favicon.ico?v=2">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+
+    <title>Amigos Maneiros</title>
+</head>
+<body>
+
+    <header>
+        <nav id="pagInic">
+            <h1>— Os amigos maneiros e legais —</h1>
+            <ul>
+                <li><a href="#pagInic">Página inicial</a></li>
+                <li><a href="#sobreSite">Sobre o site</a></li>
+                <li><a href="#integrantesId">Integrantes</a></li>
+                <li><a href="#gallery">Galeria</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="sobreSite">
+            <div class="sobre">
+                <h2>— Sobre o site —</h2>
+                <img src="./fotos/foto1.jpeg" alt="">
+                <img src="./fotos/foto2.jpeg" alt="">
+                <img src="./fotos/foto3.jpeg" alt="">
+                <img src="./fotos/foto 13.jpeg" alt="">
+                <p>Esse site inicialmente servirá para agrupar fotos dos amigos maneiros e legais.</p>
+            </div>
+        </section>
+
+        <section id="integrantesId">
+            <h2>— Integrantes —</h2>
+            <p>Esses são os integrantes dos amigos maneiros e legais até então:</p>
+            <ul>
+                <li><a href="#pepe">Pepe</a></li>
+                <li><a href="#vic">Vit</a></li>
+                <li><a href="#luli">Luli</a></li>
+                <li><a href="#max">Max</a></li>
+                <li><a href="#felipe">Felipe</a></li>
+            </ul>
+        <section class="integrantes">
+            <hr>
+            <h3 id="pepe">✩ Pepe ✩</h3>
+            <h4>Ela/Dela</h4>
+            <div class="images-container">
+            <img src="./fotos/pepe.picrew.jpeg" alt="picrew pepe">
+            <img src="./fotos/foto unica pepe.png" alt="foto unica pepe">
+            </div>
+            <div class="link-container">
+            <a href="https://www.instagram.com/petrakuhnex/" target="_blank">Instagram da Pepe</a>
+            </div>
+            <hr>
+            <h3 id="vic">♱ Vit ♱</h3>
+            <h4>Ela/Dela</h4>
+            <div class="images-container">
+                <img src="./fotos/vic-picrew.jpeg" alt="picrew vic">
+                <img src="./fotos/foto unica vic.png" alt="foto unica vit">
+            </div>
+            <div class="link-container">
+                <a href="https://www.instagram.com/vittstoria/" target="_blank">Instagram da Vit</a>
+                </div>
+            <hr>
+                <h3 id="luli">❁ Luli ❁</h3>
+                <h4>Ela/Dela</h4>
+            <div class="images-container">
+                <img src="./fotos/luli.picrew.jpeg" alt="picrew luli">
+                <img src="./fotos/foto unica luli.png" alt="foto unica luli">
+            </div>
+            <div class="link-container">
+                <a href="https://www.instagram.com/luvtstars/" target="_blank">Instagram da Luli</a>
+                </div>
+            <hr>
+            <h3 id="max">✦ Max ✦</h3>
+            <h4>Ele/Dele</h4>
+        <div class="images-container">
+            <img src="./fotos/max.picrew.jpeg" alt="picrew max">
+            <img src="./fotos/foto unica max2.png" alt="foto unica max">
+        </div>
+        <div class="link-container">
+            <a href="https://www.instagram.com/_xarimax/" target="_blank">Instagram do Max</a>
+            </div>
+            <hr>
+            <h3 id="felipe">✶ Felipe ✶</h3>
+            <h4>Ele/Dele</h4>
+        <div class="images-container">
+            <img src="./fotos/felipe.picrew.jpeg" alt="picrew felipe">
+            <img src="./fotos/foto unica felipe.png" alt="foto unica felipe">
+        </div>
+        <div class="link-container">
+            <a href="https://www.instagram.com/felip.uan/" target="_blank">Instagram do Felipe</a>
+        </section>
+        </section>
+    </main>
+    <section>
+        <h2>— Galeria —</h2>
+        <p>Nossas principais fotos</p>
+        <div id="gallery-container"></div>
+    </section>
+    
+    <script>
+        const galleryContainer = document.getElementById("gallery-container");
+        const images = [
+        "./fotos/vic-picrew.jpeg",
+        "./fotos/foto unica vic.png",
+        "./fotos/luli.picrew.jpeg",
+        "./fotos/foto unica luli.png",
+        "./fotos/max.picrew.jpeg",
+        "./fotos/foto unica max2.png",
+        "./fotos/felipe.picrew.jpeg",
+        "./fotos/foto unica felipe.png"
+        ];
+    
+        images.forEach(imageSrc => {
+        const img = document.createElement("img");
+        img.src = imageSrc;
+        galleryContainer.appendChild(img);
+        });
+    </script>
+    
+    
+    <footer>
+		<p>&copy; 2023 Os Amigos Maneiros e Legais</p>
+	</footer>
+</body>
+</html>

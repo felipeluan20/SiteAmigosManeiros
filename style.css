@@ -1,0 +1,30 @@
+* {
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #FFF4E0;;
+}
+
+.header {
+    background-color: #B46060 ;
+    display: flex;
+    position: relative;
+
+}
+
+.header h1 {
+    color: #FFBF9B;
+    font-size: 50px;
+}
+
+.header p {
+    color: #4D4D4D;
+    display: inline-block;
+}
+
+.fotoHeader {
+    height: 400px;
+    width: 400px;
+}
