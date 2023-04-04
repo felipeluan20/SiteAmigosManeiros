@@ -21,7 +21,7 @@
                 <li><a href="#pagInic">Página inicial</a></li>
                 <li><a href="#sobreSite">Sobre o site</a></li>
                 <li><a href="#integrantesId">Integrantes</a></li>
-                <li><a href="#gallery">Galeria</a></li>
+                <li><a href="#gallery-container">Galeria</a></li>
             </ul>
         </nav>
     </header>
@@ -106,25 +106,7 @@
         <div id="gallery-container"></div>
     </section>
     
-    <script>
-        const galleryContainer = document.getElementById("gallery-container");
-        const images = [
-        "./fotos/vic-picrew.jpeg",
-        "./fotos/foto unica vic.png",
-        "./fotos/luli.picrew.jpeg",
-        "./fotos/foto unica luli.png",
-        "./fotos/max.picrew.jpeg",
-        "./fotos/foto unica max2.png",
-        "./fotos/felipe.picrew.jpeg",
-        "./fotos/foto unica felipe.png"
-        ];
-    
-        images.forEach(imageSrc => {
-        const img = document.createElement("img");
-        img.src = imageSrc;
-        galleryContainer.appendChild(img);
-        });
-    </script>
+    <script src="./index.js"></script>
     
     
     <footer>
